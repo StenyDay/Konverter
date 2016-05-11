@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void objem(int from,int in, float value){
+float objem(int from,int in, float value){
 
 
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void speed(int from, int in, float value){
+float speed(int from, int in, float value){
 
 
     switch(from){

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void square(int from,int in,float value)
+float square(int from,int in,float value)
 {
     setlocale (LC_ALL,"Rus");
     switch(from)

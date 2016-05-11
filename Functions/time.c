@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void time(int from, int in, float value){
+float time(int from, int in, float value){
 
 
     switch(from){
