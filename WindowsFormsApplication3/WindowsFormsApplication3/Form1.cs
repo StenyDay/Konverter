@@ -8,9 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApplication3
 {
-    public partial class Form1: Form
+    public partial class Form1 : Form
     {
         public Form1()
         {
@@ -19,7 +20,7 @@ namespace WindowsFormsApplication3
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -29,8 +30,9 @@ namespace WindowsFormsApplication3
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-          if(comboBox1.SelectedIndex==0)
+            if (comboBox1.SelectedIndex == 0)
             {
+                comboBox2.Items.Clear();
                 comboBox2.Items.Add("Миллиграмм");
                 comboBox2.Items.Add("Грамм");
                 comboBox2.Items.Add("Килограмм");
@@ -40,8 +42,8 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("Русский фунт");
                 comboBox2.Items.Add("Английский фунт");
                 comboBox2.Items.Add("Пуд");
-            }
-            else if(comboBox1.SelectedIndex == 1)
+             }
+            else if (comboBox1.SelectedIndex == 1)
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("Год");
@@ -50,9 +52,9 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("Час");
                 comboBox2.Items.Add("Минута");
                 comboBox2.Items.Add("Секунда");
-                
+
             }
-          else if (comboBox1.SelectedIndex == 2)
+            else if (comboBox1.SelectedIndex == 2)
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("Км/с");
@@ -60,7 +62,7 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("км/ч");
                 comboBox2.Items.Add("м/ч");
             }
-          else if (comboBox1.SelectedIndex == 3)
+            else if (comboBox1.SelectedIndex == 3)
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("Кубический метр");
@@ -69,7 +71,7 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("Кубический миллиметр");
                 comboBox2.Items.Add("Литр");
             }
-          else if (comboBox1.SelectedIndex == 4)
+            else if (comboBox1.SelectedIndex == 4)
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("Километр");
@@ -80,7 +82,7 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("Фут");
                 comboBox2.Items.Add("Ярд");
             }
-          else if (comboBox1.SelectedIndex == 5)
+            else if (comboBox1.SelectedIndex == 5)
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("Квадратный километр");
@@ -92,6 +94,7 @@ namespace WindowsFormsApplication3
             }
             if (comboBox1.SelectedIndex == 0)
             {
+                comboBox3.Items.Clear();
                 comboBox3.Items.Add("Миллиграмм");
                 comboBox3.Items.Add("Грамм");
                 comboBox3.Items.Add("Килограмм");
@@ -157,13 +160,87 @@ namespace WindowsFormsApplication3
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int m;
+            int l;
+            float x;
+            x = 0;
+            m = 0;
+            l = 0;
+            if (comboBox1.Items.Contains("Вес и Масса"))
+               /* if (comboBox3.Items.Contains("Грамм"))
+            {
+                textBox1.Clear();
+                textBox1.Text += "";
+            }
+            else if (comboBox2.Items.Contains("Километр"))
+            {
+                textBox1.Clear();
+                textBox1.Text += "666";
+            }*/
+            switch (m)
+            {
+                case 1:
+                    switch (l)
+                    {
+                        case 1: textBox1.Text += (x); break;
+                        case 2:
+                            x /= 1000;
+                            textBox1.Text += (x); break;
+                        case 3:
+                            x /= 1000000;
+                            textBox1.Text += (x); break;
+                        case 4:
+                            x /= 100000000;
+                            textBox1.Text += (x); break;
+                        case 5:
+                            x /= 1000000000;
+                            textBox1.Text += (x); break;
+                        case 6:
+                            x /= 200;
+                            textBox1.Text += (x); break;
+                        case 7:
+                            x /= 409500;
+                            textBox1.Text += (x); break;
+                        case 8:
+                            x /= 453600;
+                            textBox1.Text += (x); break;
+                        case 9:
+                            x /= 16380000;
+                            textBox1.Text += (x); break;
+                        case 10:
+                            x /= 28350;
+                            textBox1.Text += (x); break;
+                           
+                    }
+                    break;
+            }
+
+            }
+        
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
     }
