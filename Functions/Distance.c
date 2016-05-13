@@ -190,7 +190,7 @@ float distance(int from, int in,float value)
             return value;
             break;
             case 7: value/=3;
-            printf("%f\n",value);
+            printf("%.5f\n",value);
             return value;
             break;
         }

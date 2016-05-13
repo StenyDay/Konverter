@@ -1,7 +1,7 @@
-void vess(int m, int l,float x);
-void time(int m, int l, float x);
-void speed(int m, int l, float x);
-void objem(int m,int l, float x);
+float vess(int m, int l,float x);
+float time(int m, int l, float x);
+float speed(int m, int l, float x);
+float objem(int m,int l, float x);
 float distance(int m, int l,float x);
-void square(int m, int l,float x);
+float square(int m, int l,float x);
 

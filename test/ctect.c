@@ -1251,3 +1251,1226 @@ CTEST(total, n4_49) {
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
+
+CTEST(total, n5_1) {
+    // When
+    float  res_t = time(1, 1, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_2){
+    //When
+    float res_t = time(1, 2, t);
+    //Then
+    const float ex = 520;
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_3) {
+    // When
+    float  res_t = time(1, 3, t);
+    // Then
+    const float ex = 3650;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_4) {
+    // When
+    float  res_t = time(1, 4, t);
+    // Then
+    const float ex = 8766;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_5) {
+    // When
+    float  res_t = time(1, 5, t);
+    // Then
+    const float ex = 5260000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_6) {
+    // When
+    float  res_t = time(1, 6, t);
+    // Then
+    const float ex = 315600000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_7) {
+    // When
+    float  res_t = time(2, 1, t);
+    // Then
+    const float ex = 0.1923076923;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_8) {
+    // When
+    float  res_t = time(2, 2, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_9) {
+    // When
+    float  res_t = time(2, 3, t);
+    // Then
+    const float ex = 70;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_10) {
+    // When
+    float  res_t = time(2, 4, t);
+    // Then
+    const float ex = 1680;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_11) {
+    // When
+    float  res_t = time(2, 5, t);
+    // Then
+    const float ex = 100800;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_12) {
+    // When
+    float  res_t = time(2, 6, t);
+    // Then
+    const float ex = 6048000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_13) {
+    // When
+    float  res_t = time(3, 1, t);
+    // Then
+    const float ex =  0.02739726027;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_14) {
+    // When
+    float  res_t = time(3, 2, t);
+    // Then
+    const float ex = 1.42857142857;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_15) {
+    // When
+    float  res_t = time(3, 3, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_16) {
+    // When
+    float  res_t = time(3, 4, t);
+    // Then
+    const float ex = 240;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_17) {
+    // When
+    float  res_t = time(3, 5, t);
+    // Then
+    const float ex = 1680;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_18) {
+    // When
+    float  res_t = time(3, 6, t);
+    // Then
+    const float ex = 100800;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_19) {
+    // When
+    float  res_t = time(4, 1, t);
+    // Then
+    const float ex = 0.00114155251;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_20) {
+    // When
+    float  res_t = time(4, 2, t);
+    // Then
+    const float ex = 0.05952380952;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_21) {
+    // When
+    float  res_t = time(4, 3, t);
+    // Then
+    const float ex = 0.41666;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_22) {
+    // When
+    float  res_t = time(4, 4, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_23) {
+    // When
+    float  res_t = time(4, 5, t);
+    // Then
+    const float ex = 600;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_24) {
+    // When
+    float  res_t = time(4, 6, t);
+    // Then
+    const float ex = 36000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_25) {
+    // When
+    float  res_t = time(5, 1, t);
+    // Then
+    const float ex = 0.0000190114;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_26) {
+    // When
+    float  res_t = time(5, 2, t);
+    // Then
+    const float ex = 0.00099206349;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_27) {
+    // When
+    float  res_t = time(5, 3, t);
+    // Then
+    const float ex = 0.00694;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_28) {
+    // When
+    float  res_t = time(5, 4, t);
+    // Then
+    const float ex = 0.16666;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_29) {
+    // When
+    float  res_t = time(5, 5, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_30) {
+    // When
+    float  res_t = time(5, 6, t);
+    // Then
+    const float ex = 600;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_31) {
+    // When
+    float  res_t = time(6, 1, t);
+    // Then
+    const float ex = 3.16856;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_32) {
+    // When
+    float  res_t = time(6, 2, t);
+    // Then
+    const float ex = 0.00001653439;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_33) {
+    // When
+    float  res_t = time(6, 3, t);
+    // Then
+    const float ex = 0.00011574074;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_34) {
+    // When
+    float  res_t = time(6, 4, t);
+    // Then
+    const float ex = 0.00277;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_35) {
+    // When
+    float  res_t = time(6, 5, t);
+    // Then
+    const float ex = 0.16666;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n5_36) {
+    // When
+    float  res_t = time(6, 6, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_1) {
+    // When
+    float  res_t = vess(1, 1, t);
+    // Then
+    const float ex = 0.01;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_2){
+    //When
+    float res_t = vess(1, 2, t);
+    //Then
+    const float ex = 0.000;
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_3) {
+    // When
+    float  res_t = vess(1, 3, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_4) {
+    // When
+    float  res_t = vess(1, 4, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_5) {
+    // When
+    float  res_t = vess(1, 5, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_6) {
+    // When
+    float  res_t = vess(1, 6, t);
+    // Then
+    const float ex = 0.05;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_7) {
+    // When
+    float  res_t = vess(1, 7, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_8) {
+    // When
+    float  res_t = vess(1, 8, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_9) {
+    // When
+    float  res_t = vess(1, 9, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_10) {
+    // When
+    float  res_t = vess(1, 10, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_11) {
+    // When
+    float  res_t = vess(2, 1, t);
+    // Then
+    const float ex = 10000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_12) {
+    // When
+    float  res_t = vess(2, 2, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_13) {
+    // When
+    float  res_t = vess(2, 3, t);
+    // Then
+    const float ex = 0.01;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_14) {
+    // When
+    float  res_t = vess(2, 4, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_15) {
+    // When
+    float  res_t = vess(2, 5, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_16) {
+    // When
+    float  res_t = vess(2, 6, t);
+    // Then
+    const float ex = 50;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_17) {
+    // When
+    float  res_t = vess(2, 7, t);
+    // Then
+    const float ex = 0.024;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_18) {
+    // When
+    float  res_t = vess(2, 8, t);
+    // Then
+    const float ex = 0.022;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_19) {
+    // When
+    float  res_t = vess(2, 9, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_20) {
+    // When
+    float  res_t = vess(2, 10, t);
+    // Then
+    const float ex = 0.352;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_21) {
+    // When
+    float  res_t = vess(3, 1, t);
+    // Then
+    const float ex = 10000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_22) {
+    // When
+    float  res_t = vess(3, 2, t);
+    // Then
+    const float ex = 10000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_23) {
+    // When
+    float  res_t = vess(3, 3, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_24) {
+    // When
+    float  res_t = vess(3, 4, t);
+    // Then
+    const float ex = 0.1;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_25) {
+    // When
+    float  res_t = vess(3, 5, t);
+    // Then
+    const float ex = 0.01;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_26) {
+    // When
+    float  res_t = vess(3, 6, t);
+    // Then
+    const float ex = 50000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_27) {
+    // When
+    float  res_t = vess(3, 7, t);
+    // Then
+    const float ex = 24.42;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_28) {
+    // When
+    float  res_t = vess(3, 8, t);
+    // Then
+    const float ex = 22.05;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_29) {
+    // When
+    float  res_t = vess(3, 9, t);
+    // Then
+    const float ex = 0.610;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_30) {
+    // When
+    float  res_t = vess(3, 10, t);
+    // Then
+    const float ex = 0.283;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_31) {
+    // When
+    float  res_t = vess(4, 1, t);
+    // Then
+    const float ex = 1000000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_32) {
+    // When
+    float  res_t = vess(4, 2, t);
+    // Then
+    const float ex = 1000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_33) {
+    // When
+    float  res_t = vess(4, 3, t);
+    // Then
+    const float ex = 1000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_34) {
+    // When
+    float  res_t = vess(4, 4, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_35) {
+    // When
+    float  res_t = vess(4, 5, t);
+    // Then
+    const float ex = 1;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_36) {
+    // When
+    float  res_t = vess(4, 6, t);
+    // Then
+    const float ex = 5000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_37) {
+    // When
+    float  res_t = vess(4, 7, t);
+    // Then
+    const float ex = 2442;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_38) {
+    // When
+    float  res_t = vess(4, 8, t);
+    // Then
+    const float ex = 2205;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_39) {
+    // When
+    float  res_t = vess(4, 9, t);
+    // Then
+    const float ex = 61.05;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_40) {
+    // When
+    float  res_t = vess(4, 10, t);
+    // Then
+    const float ex = 35270;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_41) {
+    // When
+    float  res_t = vess(5, 1, t);
+    // Then
+    const float ex = 10000000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_42) {
+    // When
+    float  res_t = vess(5, 2, t);
+    // Then
+    const float ex = 10000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_43) {
+    // When
+    float  res_t = vess(5, 3, t);
+    // Then
+    const float ex = 10000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_44) {
+    // When
+    float  res_t = vess(5, 4, t);
+    // Then
+    const float ex = 100;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_45) {
+    // When
+    float  res_t = vess(5, 5, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_46) {
+    // When
+    float  res_t = vess(5, 6, t);
+    // Then
+    const float ex = 5000000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_47) {
+    // When
+    float  res_t = vess(5, 7, t);
+    // Then
+    const float ex = 24420;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_48) {
+    // When
+    float  res_t = vess(5, 8, t);
+    // Then
+    const float ex = 22050;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_49) {
+    // When
+    float  res_t = vess(5, 9, t);
+    // Then
+    const float ex = 610.5;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_50) {
+    // When
+    float  res_t = vess(5, 10, t);
+    // Then
+    const float ex = 35270;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_51) {
+    // When
+    float  res_t = vess(6, 1, t);
+    // Then
+    const float ex = 2000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_52) {
+    // When
+    float  res_t = vess(6, 2, t);
+    // Then
+    const float ex = 2;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_53) {
+    // When
+    float  res_t = vess(6, 3, t);
+    // Then
+    const float ex = 0.002;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_54) {
+    // When
+    float  res_t = vess(6, 4, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_55) {
+    // When
+    float  res_t = vess(6, 5, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_56) {
+    // When
+    float  res_t = vess(6, 6, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_57) {
+    // When
+    float  res_t = vess(6, 7, t);
+    // Then
+    const float ex = 0.004;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_58) {
+    // When
+    float  res_t = vess(6, 8, t);
+    // Then
+    const float ex = 0.004;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_59) {
+    // When
+    float  res_t = vess(6, 9, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_60) {
+    // When
+    float  res_t = vess(6, 10, t);
+    // Then
+    const float ex = 0.067;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_61) {
+    // When
+    float  res_t = vess(7, 1, t);
+    // Then
+    const float ex = 4095000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_62) {
+    // When
+    float  res_t = vess(7, 2, t);
+    // Then
+    const float ex = 4095;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_63) {
+    // When
+    float  res_t = vess(7, 3, t);
+    // Then
+    const float ex = 4.095;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_64) {
+    // When
+    float  res_t = vess(7, 4, t);
+    // Then
+    const float ex = 0.040;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_65) {
+    // When
+    float  res_t = vess(7, 5, t);
+    // Then
+    const float ex = 0.004;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_66) {
+    // When
+    float  res_t = vess(7, 6, t);
+    // Then
+    const float ex = 20480;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_67) {
+    // When
+    float  res_t = vess(7, 7, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_68) {
+    // When
+    float  res_t = vess(7, 8, t);
+    // Then
+    const float ex = 9.025;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_69) {
+    // When
+    float  res_t = vess(7, 9, t);
+    // Then
+    const float ex = 0.25;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_70) {
+    // When
+    float  res_t = vess(7, 10, t);
+    // Then
+    const float ex = 144.5;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_71) {
+    // When
+    float  res_t = vess(8, 1, t);
+    // Then
+    const float ex = 4536000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_72) {
+    // When
+    float  res_t = vess(8, 2, t);
+    // Then
+    const float ex = 45.36;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_73) {
+    // When
+    float  res_t = vess(8, 3, t);
+    // Then
+    const float ex = 4.535;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_74) {
+    // When
+    float  res_t = vess(8, 4, t);
+    // Then
+    const float ex = 0.004;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_75) {
+    // When
+    float  res_t = vess(8, 5, t);
+    // Then
+    const float ex = 0.004;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_76) {
+    // When
+    float  res_t = vess(8, 6, t);
+    // Then
+    const float ex = 22680;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_77) {
+    // When
+    float  res_t = vess(8, 7, t);
+    // Then
+    const float ex = 11.08;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_78) {
+    // When
+    float  res_t = vess(8, 8, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_79) {
+    // When
+    float  res_t = vess(8, 9, t);
+    // Then
+    const float ex = 0.276;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_80) {
+    // When
+    float  res_t = vess(8, 10, t);
+    // Then
+    const float ex = 160;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_81) {
+    // When
+    float  res_t = vess(9, 1, t);
+    // Then
+    const float ex = 163800000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_82) {
+    // When
+    float  res_t = vess(9, 2, t);
+    // Then
+    const float ex = 136800;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_83) {
+    // When
+    float  res_t = vess(9, 3, t);
+    // Then
+    const float ex = 163.8;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_84) {
+    // When
+    float  res_t = vess(9, 4, t);
+    // Then
+    const float ex = 1.64;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_85) {
+    // When
+    float  res_t = vess(9, 5, t);
+    // Then
+    const float ex = 0.164;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_86) {
+    // When
+    float  res_t = vess(9, 6, t);
+    // Then
+    const float ex = 819000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_87) {
+    // When
+    float  res_t = vess(9, 7, t);
+    // Then
+    const float ex = 400;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_88) {
+    // When
+    float  res_t = vess(9, 8, t);
+    // Then
+    const float ex = 361.1;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_89) {
+    // When
+    float  res_t = vess(9, 9, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_90) {
+    // When
+    float  res_t = vess(9, 10, t);
+    // Then
+    const float ex = 5778;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_91) {
+    // When
+    float  res_t = vess(10, 1, t);
+    // Then
+    const float ex = 283500;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_92) {
+    // When
+    float  res_t = vess(10, 2, t);
+    // Then
+    const float ex = 283.5;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_93) {
+    // When
+    float  res_t = vess(10, 3, t);
+    // Then
+    const float ex = 0.283;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_94) {
+    // When
+    float  res_t = vess(10, 4, t);
+    // Then
+    const float ex = 0.002;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_95) {
+    // When
+    float  res_t = vess(10, 5, t);
+    // Then
+    const float ex = 0.000;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_96) {
+    // When
+    float  res_t = vess(10, 6, t);
+    // Then
+    const float ex = 1417;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_97) {
+    // When
+    float  res_t = vess(10, 7, t);
+    // Then
+    const float ex = 0.692;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_98) {
+    // When
+    float  res_t = vess(10, 8, t);
+    // Then
+    const float ex = 0.625;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_99) {
+    // When
+    float  res_t = vess(10, 9, t);
+    // Then
+    const float ex = 0.017;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+
+CTEST(total, n6_100) {
+    // When
+    float  res_t = vess(10, 10, t);
+    // Then
+    const float ex = 10;
+
+    ASSERT_DBL_NEAR(ex, res_t);
+}
+

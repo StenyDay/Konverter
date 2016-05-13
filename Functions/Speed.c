@@ -42,7 +42,7 @@ float speed(int from, int in, float value){
         break;
         case 3: switch(in){
             case 1: value/=3600;
-            printf("%f\n",value);
+            printf("%.5f\n",value);
             return value;
             break;
             case 2: value*=0.2778;
@@ -60,11 +60,11 @@ float speed(int from, int in, float value){
         break;
         case 4: switch(in){
             case 1: value/=60000;
-            printf("%f\n",value);
+            printf("%.6f\n",value);
             return value;
             break;
             case 2: value/=60;
-            printf("%f\n",value);
+            printf("%.5f\n",value);
             return value;
             break;
             case 3: value*=0.06;

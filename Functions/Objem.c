@@ -44,7 +44,7 @@ float objem(int from,int in, float value){
             printf("%f\n",value);
             return value;
             break;
-            case 5:    printf("%f\n",value);
+            case 5: printf("%f\n",value);
             return value;
             break;
         }
@@ -72,15 +72,15 @@ float objem(int from,int in, float value){
         }
         break;
         case 4:    switch(in){
-            case 1: value/1000000000;
+            case 1: value/=1000000000;
+            printf("%.5f\n",value);
+            return value;
+            break;
+            case 2: value/=1000000;
             printf("%f\n",value);
             return value;
             break;
-            case 2: value/1000000;
-            printf("%f\n",value);
-            return value;
-            break;
-            case 3: value/1000;
+            case 3: value/=1000;
             printf("%f\n",value);
             return value;
             break;
