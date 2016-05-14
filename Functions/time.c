@@ -93,7 +93,7 @@ float time(int from, int in, float value){
             return value;
             break;
             case 3: value/=24;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 4: printf("%f\n",value);
@@ -119,11 +119,11 @@ float time(int from, int in, float value){
             return value;
             break;
             case 3: value/=1440;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 4: value/=60;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 5: printf("%f\n",value);
@@ -137,7 +137,7 @@ float time(int from, int in, float value){
         break;
         case 6: switch(in){
             case 1: value/=31560000;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 2: value/=604800;
@@ -149,7 +149,7 @@ float time(int from, int in, float value){
             return value;
             break;
             case 4: value/=3600;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 5: value/=60;

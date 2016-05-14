@@ -28,11 +28,11 @@ float square(int from,int in,float value)
             return value;
             break;
             case 6: value*=1000000000;
-            printf("%.6f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 7: value*=1000000000000;
-            printf("%.6f\n",value);
+            printf("%f\n",value);
             return value;
             break;
         } break;

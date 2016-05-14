@@ -73,7 +73,7 @@ float objem(int from,int in, float value){
         break;
         case 4:    switch(in){
             case 1: value/=1000000000;
-            printf("%.5f\n",value);
+            printf("%f\n",value);
             return value;
             break;
             case 2: value/=1000000;
