@@ -42,7 +42,7 @@ namespace WindowsFormsApplication3
                 comboBox2.Items.Add("Русский фунт");
                 comboBox2.Items.Add("Английский фунт");
                 comboBox2.Items.Add("Пуд");
-             }
+            }
             else if (comboBox1.SelectedIndex == 1)
             {
                 comboBox2.Items.Clear();
@@ -175,63 +175,54 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int m;
-            int l;
-            float x;
-            x = 0;
-            m = 0;
-            l = 0;
-            if (comboBox1.Items.Contains("Вес и Масса"))
-               /* if (comboBox3.Items.Contains("Грамм"))
-            {
-                textBox1.Clear();
-                textBox1.Text += "";
-            }
-            else if (comboBox2.Items.Contains("Километр"))
-            {
-                textBox1.Clear();
-                textBox1.Text += "666";
-            }*/
-            switch (m)
-            {
-                case 1:
-                    switch (l)
-                    {
-                        case 1: textBox1.Text += (x); break;
-                        case 2:
-                            x /= 1000;
-                            textBox1.Text += (x); break;
-                        case 3:
-                            x /= 1000000;
-                            textBox1.Text += (x); break;
-                        case 4:
-                            x /= 100000000;
-                            textBox1.Text += (x); break;
-                        case 5:
-                            x /= 1000000000;
-                            textBox1.Text += (x); break;
-                        case 6:
-                            x /= 200;
-                            textBox1.Text += (x); break;
-                        case 7:
-                            x /= 409500;
-                            textBox1.Text += (x); break;
-                        case 8:
-                            x /= 453600;
-                            textBox1.Text += (x); break;
-                        case 9:
-                            x /= 16380000;
-                            textBox1.Text += (x); break;
-                        case 10:
-                            x /= 28350;
-                            textBox1.Text += (x); break;
-                           
-                    }
-                    break;
-            }
+            textBox1.Clear();
+            //string chislo;
+            //chislo = textBox2.Text;
+            
+            float x = Convert.ToInt32(textBox2.Text);
+           
+                        
+                
+                switch (comboBox2.SelectedIndex)
+                {
+                    case 0:
+                        switch (comboBox3.SelectedIndex)
+                        {
+                            case 0: textBox1.Text += (x); break;
+                            case 1:
+                                x /= 1000;
+                                textBox1.Text += (x); break;
+                            case 2:
+                                x /= 1000000;
+                                textBox1.Text += (x); break;
+                            case 4:
+                                x /= 100000000;
+                                textBox1.Text += (x); break;
+                            case 5:
+                                x /= 1000000000;
+                                textBox1.Text += (x); break;
+                            case 6:
+                                x /= 200;
+                                textBox1.Text += (x); break;
+                            case 7:
+                                x /= 409500;
+                                textBox1.Text += (x); break;
+                            case 8:
+                                x /= 453600;
+                                textBox1.Text += (x); break;
+                            case 9:
+                                x /= 16380000;
+                                textBox1.Text += (x); break;
+                            case 10:
+                                x /= 28350;
+                                textBox1.Text += (x); break;
 
-            }
-        
+                        }
+                        break;
+                }
+
+        }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -240,7 +231,12 @@ namespace WindowsFormsApplication3
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            
+           
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
         }
     }
-    }
+}
