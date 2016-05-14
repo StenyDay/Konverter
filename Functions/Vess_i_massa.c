@@ -46,7 +46,7 @@ float vess(int from, int in,float value)
             return value;
             break;
             case 10:value/=28350;
-            printf("%10.3f\n",value);
+            printf("%.4f\n",value);
             return value;
             break;
 

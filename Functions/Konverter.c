@@ -10,7 +10,7 @@ int main()
 	setlocale (LC_ALL,"RUS");
 	long from,in,menu;
 	float value;
-        while (1)
+    while (1)
 	{
 		printf ("Добро пожаловать в конвертёр величин! Выберите конвертируемую величину\n");
 		printf ("1.Вес и масса\n2.Время\n3.Скорость\n4.Объем\n5.Длина\n6.Площадь\n");

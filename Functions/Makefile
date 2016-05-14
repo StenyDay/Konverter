@@ -21,3 +21,4 @@ Speed.o: Speed.c
 
 time.o: time.c
 		gcc -c time.c
+		

@@ -869,7 +869,7 @@ CTEST(total, n4_7) {
     // When
     float  res_t = square(1, 7, t);
     // Then
-    const float ex = 1000000000000;
+    const float ex = 10000000000000;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1282,7 +1282,7 @@ CTEST(total, n5_4) {
     // When
     float  res_t = time(1, 4, t);
     // Then
-    const float ex = 8766;
+    const float ex = 87660;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1525,7 +1525,7 @@ CTEST(total, n5_31) {
     // When
     float  res_t = time(6, 1, t);
     // Then
-    const float ex = 3.16856;
+    const float ex = 0.00000;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1579,7 +1579,7 @@ CTEST(total, n6_1) {
     // When
     float  res_t = vess(1, 1, t);
     // Then
-    const float ex = 0.01;
+    const float ex = 10;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1588,7 +1588,7 @@ CTEST(total, n6_2){
     //When
     float res_t = vess(1, 2, t);
     //Then
-    const float ex = 0.000;
+    const float ex = 0.01;
     ASSERT_DBL_NEAR(ex, res_t);
 }
 
@@ -1659,7 +1659,7 @@ CTEST(total, n6_10) {
     // When
     float  res_t = vess(1, 10, t);
     // Then
-    const float ex = 0.000;
+    const float ex = 0.0003;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1722,7 +1722,7 @@ CTEST(total, n6_17) {
     // When
     float  res_t = vess(2, 7, t);
     // Then
-    const float ex = 0.024;
+    const float ex = 0.02442;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1740,7 +1740,7 @@ CTEST(total, n6_19) {
     // When
     float  res_t = vess(2, 9, t);
     // Then
-    const float ex = 0.000;
+    const float ex = 0.00061;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1749,7 +1749,7 @@ CTEST(total, n6_20) {
     // When
     float  res_t = vess(2, 10, t);
     // Then
-    const float ex = 0.352;
+    const float ex = 0.3527;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1830,7 +1830,7 @@ CTEST(total, n6_29) {
     // When
     float  res_t = vess(3, 9, t);
     // Then
-    const float ex = 0.610;
+    const float ex = 0.6105;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -1839,7 +1839,7 @@ CTEST(total, n6_30) {
     // When
     float  res_t = vess(3, 10, t);
     // Then
-    const float ex = 0.283;
+    const float ex = 0.2835;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2019,7 +2019,7 @@ CTEST(total, n6_50) {
     // When
     float  res_t = vess(5, 10, t);
     // Then
-    const float ex = 35270;
+    const float ex = 352700;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2082,7 +2082,7 @@ CTEST(total, n6_57) {
     // When
     float  res_t = vess(6, 7, t);
     // Then
-    const float ex = 0.004;
+    const float ex = 0.004883;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2091,7 +2091,7 @@ CTEST(total, n6_58) {
     // When
     float  res_t = vess(6, 8, t);
     // Then
-    const float ex = 0.004;
+    const float ex = 0.004409;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2100,7 +2100,7 @@ CTEST(total, n6_59) {
     // When
     float  res_t = vess(6, 9, t);
     // Then
-    const float ex = 0.000;
+    const float ex = 0.00012;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2109,7 +2109,7 @@ CTEST(total, n6_60) {
     // When
     float  res_t = vess(6, 10, t);
     // Then
-    const float ex = 0.067;
+    const float ex = 0.0677;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2145,7 +2145,7 @@ CTEST(total, n6_64) {
     // When
     float  res_t = vess(7, 4, t);
     // Then
-    const float ex = 0.040;
+    const float ex = 0.04095;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2181,7 +2181,7 @@ CTEST(total, n6_68) {
     // When
     float  res_t = vess(7, 8, t);
     // Then
-    const float ex = 9.025;
+    const float ex = 9.0252;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2217,7 +2217,7 @@ CTEST(total, n6_72) {
     // When
     float  res_t = vess(8, 2, t);
     // Then
-    const float ex = 45.36;
+    const float ex = 4536;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2226,7 +2226,7 @@ CTEST(total, n6_73) {
     // When
     float  res_t = vess(8, 3, t);
     // Then
-    const float ex = 4.535;
+    const float ex = 4.5351;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2235,7 +2235,7 @@ CTEST(total, n6_74) {
     // When
     float  res_t = vess(8, 4, t);
     // Then
-    const float ex = 0.004;
+    const float ex = 0.004535;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2244,7 +2244,7 @@ CTEST(total, n6_75) {
     // When
     float  res_t = vess(8, 5, t);
     // Then
-    const float ex = 0.004;
+    const float ex = 0.004535;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2280,7 +2280,7 @@ CTEST(total, n6_79) {
     // When
     float  res_t = vess(8, 9, t);
     // Then
-    const float ex = 0.276;
+    const float ex = 0.2769;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2415,7 +2415,7 @@ CTEST(total, n6_94) {
     // When
     float  res_t = vess(10, 4, t);
     // Then
-    const float ex = 0.002;
+    const float ex = 0.002835;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2424,7 +2424,7 @@ CTEST(total, n6_95) {
     // When
     float  res_t = vess(10, 5, t);
     // Then
-    const float ex = 0.000;
+    const float ex = 0.00028;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
@@ -2460,7 +2460,7 @@ CTEST(total, n6_99) {
     // When
     float  res_t = vess(10, 9, t);
     // Then
-    const float ex = 0.017;
+    const float ex = 0.0173;
 
     ASSERT_DBL_NEAR(ex, res_t);
 }
