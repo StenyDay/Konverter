@@ -117,24 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Вес и масса</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Время</value>
-  </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
-    <value>Скорость</value>
-  </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
-    <value>Объём</value>
-  </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
-    <value>Длина</value>
-  </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
-    <value>Площадь</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 25</value>
@@ -228,13 +210,13 @@
     <value>12, 9</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
+    <value>110, 13</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Выберите систему</value>
+    <value>Система измерения</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -247,6 +229,9 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="label2.AccessibleDescription" xml:space="preserve">
+    <value />
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -274,6 +259,9 @@
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="label3.AccessibleDescription" xml:space="preserve">
+    <value />
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -360,7 +348,7 @@
     <value>10</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Перевести</value>
+    <value>Посчитать</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -435,7 +423,7 @@
     <value>13</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
-    <value>Очистка</value>
+    <value>Очистить</value>
   </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>

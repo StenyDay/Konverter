@@ -69,9 +69,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Distance.c" />
     <None Include="functions.h" />
-    <None Include="Objem.c" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,9 +79,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Speed.c" />
-    <None Include="time.c" />
-    <None Include="Vess_i_massa.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
