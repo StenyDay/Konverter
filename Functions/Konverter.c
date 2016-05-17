@@ -92,7 +92,7 @@ int main()
 			break;
 		}
 		//printf("%d", __LINE__);
-//system ("pause");
+		//system ("pause");
 //return 0;
 }
 }
