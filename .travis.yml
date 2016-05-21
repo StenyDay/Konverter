@@ -1,2 +1,3 @@
 language: c
-script: cd Functions make
+script: cd Functions
+script: make
