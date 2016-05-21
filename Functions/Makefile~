@@ -1,4 +1,0 @@
-
-Konverter: Konverter.o Distance.o Objem.o Square.o Vess_i_massa.o Speed.o time.o
-                    gcc -o konverter Konverter.o Distance.o Objem.o Square.o Vess_i_massa.o Speed.o time.o -lm
-
