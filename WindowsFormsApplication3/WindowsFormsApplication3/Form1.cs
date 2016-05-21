@@ -177,13 +177,13 @@ namespace WindowsFormsApplication3
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            float x = Convert.ToInt32(textBox2.Text); //m= comboBox2 l=comboBox3
+            float x = Convert.ToSingle(textBox2.Text); //m= comboBox2 l=comboBox3
 
             switch (comboBox1.SelectedIndex)
             {
 
                 case 0:
-                   
+
                     switch (comboBox2.SelectedIndex)
                     {
                         case 0:
@@ -676,7 +676,7 @@ namespace WindowsFormsApplication3
                                 case 3:
                                     x *= 60000;
                                     textBox1.Text += (x); break;
-                                    
+
                             }
                             break;
                         case 1:
@@ -774,7 +774,8 @@ namespace WindowsFormsApplication3
                                 case 1:
                                     x /= 1000;
                                     textBox1.Text += (x); break;
-                                case 2: textBox1.Text += (x); break;
+                                case 2:
+                                    textBox1.Text += (x); break;
                                 case 3:
                                     x *= 1000;
                                     textBox1.Text += (x); break;
@@ -1183,7 +1184,7 @@ namespace WindowsFormsApplication3
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -1193,7 +1194,7 @@ namespace WindowsFormsApplication3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("Весс и Масса");
+            comboBox1.Items.Add("Вес и Масса");
             comboBox1.Items.Add("Время");
             comboBox1.Items.Add("Скорость");
             comboBox1.Items.Add("Объём");
@@ -1205,5 +1206,34 @@ namespace WindowsFormsApplication3
         {
 
         }
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char[] allowch = { '\b' };
+            if (e.KeyChar == ',' && ((TextBox)sender).Text.Length > 0 && !(((TextBox)sender).Text.Contains(',')))
+            { e.Handled = false; return; };
+            if (!Char.IsNumber(e.KeyChar) && !allowch.Contains(e.KeyChar)) e.Handled = true;
+            if (!(Char.IsDigit(e.KeyChar)))
+            {
+                if (e.KeyChar == '.' || e.KeyChar == ',' || e.KeyChar == (char)Keys.Back)
+                {
+                    if (e.KeyChar == (char)Keys.Back)
+                    {
+
+                    }
+                    else
+                        if (textBox1.Text.Contains(",") || textBox1.Text.Contains("."))
+                    {
+                        e.Handled = true;
+                    }
+                }
+                else
+                {
+                    e.Handled = true;
+                }
+            }
+        //запрет на ввод букв(только цифры и знаки)
+     } 
     }
 }
+
+

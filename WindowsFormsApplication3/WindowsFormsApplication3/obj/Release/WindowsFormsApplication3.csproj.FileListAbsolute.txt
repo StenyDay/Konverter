@@ -22,3 +22,15 @@ C:\Users\Nyan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication3 —
 C:\Users\Nyan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication3 — копия\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Form1.ru-RU.resources
 C:\Users\Nyan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication3 — копия\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.csproj.GenerateResource.Cache
 C:\Users\Nyan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication3 — копия\WindowsFormsApplication3\obj\Release\ru-RU\WindowsFormsApplication3.resources.dll
+F:\WindowsFormsApplication3\WindowsFormsApplication3\bin\Release\WindowsFormsApplication3.exe.config
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.exe
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.pdb
+F:\WindowsFormsApplication3\WindowsFormsApplication3\bin\Release\WindowsFormsApplication3.exe
+F:\WindowsFormsApplication3\WindowsFormsApplication3\bin\Release\WindowsFormsApplication3.pdb
+F:\WindowsFormsApplication3\WindowsFormsApplication3\bin\Release\ru-RU\WindowsFormsApplication3.resources.dll
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Form1.resources
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Properties.Resources.resources
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Form1.ru-RU.resources
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.csproj.GenerateResource.Cache
+F:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\ru-RU\WindowsFormsApplication3.resources.dll
