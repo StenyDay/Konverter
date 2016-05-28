@@ -176,1006 +176,1014 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+
             textBox1.Clear();
-            float x = Convert.ToSingle(textBox2.Text); //m= comboBox2 l=comboBox3
+            float x = Convert.ToSingle(textBox2.Text); //x-Входное число
+                switch (comboBox1.SelectedIndex)
+                {
 
-            switch (comboBox1.SelectedIndex)
-            {
-
-                case 0:
-
+                    case 0:
+                    //Вес и масса
                     switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {                   //Вес и масса
-                                case 0:
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 100000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x /= 200;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= 409500;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x /= 453600;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= 16380000;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x /= 28350;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 100000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 5;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= (float)409.5;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x /= (float)453.6;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= 16380;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x /= (float)28.35;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 5000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= (float)2.442;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x *= (float)2.205;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= (float)16.38;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x /= (float)35.27;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 100000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 100000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 500000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= (float)244.2;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x *= (float)220.5;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x *= (float)6.105;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x *= 3527;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 4:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 500000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 2442;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x *= 2205;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x *= (float)61.05;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x *= 35270;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 5:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 200;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 5;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 5000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 500000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 5000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= 2048;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x /= 2268;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= 81900;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x /= (float)147.7;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 6:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 409500;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= (float)409.5;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= (float)2.442;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= (float)244.2;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 2442;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 2048;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x /= (float)1.108;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= 40;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x *= (float)14.45;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 7:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 453600;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= (float)453.6;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= (float)2.205;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 2205;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 2205;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 2268;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= (float)1.108;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x /= (float)36.11;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x *= 16;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 8:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 16380000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 13680;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= (float)16.38;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= (float)0.164;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= (float)0.0164;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 81900;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 40;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x *= (float)36.11;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    x *= (float)577.8;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 9:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x *= 28350;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= (float)28.35;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= (float)0.0283;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 3527;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 35270;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= (float)141.7;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= (float)0.0692;
-                                    textBox1.Text += (x); break;
-                                case 7:
-                                    x *= (float)0.0625;
-                                    textBox1.Text += (x); break;
-                                case 8:
-                                    x *= (float)0.00173;
-                                    textBox1.Text += (x); break;
-                                case 9:
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
-                case 1:
-                    switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 52;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 365;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 8766;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 526000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 31560000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 52;
-                                    textBox1.Text += (x); break;
-                                case 1: textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 7;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 168;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 10080;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 604800;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 365;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 7;
-                                    textBox1.Text += (x); break;
-                                case 2: textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 24;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 168;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 10080;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 8760;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 168;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 24;
-                                    textBox1.Text += (x); break;
-                                case 3: textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 60;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 3600;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 4:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 526000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 10080;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1440;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 60;
-                                    textBox1.Text += (x); break;
-                                case 4: textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 60;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 5:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 31560000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 604800;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 86400;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 3600;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 60;
-                                    textBox1.Text += (x); break;
-                                case 5: textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
-                case 2:
-                    switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0: textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 3600;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 60000;
-                                    textBox1.Text += (x); break;
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {                   
+                                    case 0:
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 100000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x /= 200;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= 409500;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x /= 453600;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= 16380000;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x /= 28350;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 100000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 5;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= (float)409.5;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x /= (float)453.6;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= 16380;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x /= (float)28.35;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 5000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= (float)2.442;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x *= (float)2.205;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= (float)16.38;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x /= (float)35.27;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 100000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 100000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 500000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= (float)244.2;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x *= (float)220.5;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x *= (float)6.105;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x *= 3527;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 4:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 500000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 2442;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x *= 2205;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x *= (float)61.05;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x *= 35270;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 5:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 200;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 5;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 5000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 500000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 5000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= 2048;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x /= 2268;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= 81900;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x /= (float)147.7;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 6:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 409500;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= (float)409.5;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= (float)2.442;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= (float)244.2;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 2442;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 2048;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x /= (float)1.108;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= 40;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x *= (float)14.45;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 7:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 453600;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= (float)453.6;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= (float)2.205;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 2205;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 2205;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 2268;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= (float)1.108;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x /= (float)36.11;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x *= 16;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 8:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 16380000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 13680;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= (float)16.38;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= (float)0.164;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= (float)0.0164;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 81900;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 40;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x *= (float)36.11;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        x *= (float)577.8;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 9:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x *= 28350;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= (float)28.35;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= (float)0.0283;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 3527;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 35270;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= (float)141.7;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= (float)0.0692;
+                                        textBox1.Text += (x); break;
+                                    case 7:
+                                        x *= (float)0.0625;
+                                        textBox1.Text += (x); break;
+                                    case 8:
+                                        x *= (float)0.00173;
+                                        textBox1.Text += (x); break;
+                                    case 9:
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
+                    case 1:
+                    // Время
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 52;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 365;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 8766;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 526000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 31560000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 52;
+                                        textBox1.Text += (x); break;
+                                    case 1: textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 7;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 168;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 10080;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 604800;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 365;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 7;
+                                        textBox1.Text += (x); break;
+                                    case 2: textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 24;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 168;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 10080;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 8760;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 168;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 24;
+                                        textBox1.Text += (x); break;
+                                    case 3: textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 60;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 3600;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 4:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 526000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 10080;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1440;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 60;
+                                        textBox1.Text += (x); break;
+                                    case 4: textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 60;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 5:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 31560000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 604800;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 86400;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 3600;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 60;
+                                        textBox1.Text += (x); break;
+                                    case 5: textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
+                    case 2:
+                    // Скорость
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0: textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 3600;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 60000;
+                                        textBox1.Text += (x); break;
 
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1: textBox1.Text += (x); break;
-                                case 2:
-                                    x *= (float)3.6;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 60;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 3600;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x *= (float)0.2778;
-                                    textBox1.Text += (x); break;
-                                case 2: textBox1.Text += (x); break;
-                                case 3:
-                                    x *= (float)16.67;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 60000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 60;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= (float)0.06;
-                                    textBox1.Text += (x); break;
-                                case 3: textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
-                case 3:
-                    switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0: textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 4:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3: x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
-                case 4:
-                    switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0: textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 10000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 100000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 3281;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 1094;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1: textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= (float)3.281;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= (float)1.094;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 10000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 2: textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x /= (float)3.048;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= (float)9.144;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 100000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x /= (float)30.48;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= (float)91.44;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 4:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 4: textBox1.Text += (x); break;
-                                case 5:
-                                    x /= (float)304.8;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= (float)914.4;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 5:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 3281;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= (float)3.281;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= (float)0.328;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 3048;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= (float)304.8;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x /= 3;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 6:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1094;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= (float)1.094;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= (float)0.109;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= (float)91.44;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= (float)914.4;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 3;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
-                case 5:
-                    switch (comboBox2.SelectedIndex)
-                    {
-                        case 0:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0: textBox1.Text += (x); break;
-                                case 1:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 10000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 1000000000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 1:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 1: textBox1.Text += (x); break;
-                                case 2:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 10000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 100000000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 10000000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 2:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 2: textBox1.Text += (x); break;
-                                case 3:
-                                    x *= 10;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 1000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 10000000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 1000000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 3:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 10000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 10;
-                                    textBox1.Text += (x); break;
-                                case 3: textBox1.Text += (x); break;
-                                case 4:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 100000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 4:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 10000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 100;
-                                    textBox1.Text += (x); break;
-                                case 4: textBox1.Text += (x); break;
-                                case 5:
-                                    x *= 10000;
-                                    textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 1000000;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 5:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 100000000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 10000000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 10000;
-                                    textBox1.Text += (x); break;
-                                case 5: textBox1.Text += (x); break;
-                                case 6:
-                                    x *= 100;
-                                    textBox1.Text += (x); break;
-                            }
-                            break;
-                        case 6:
-                            switch (comboBox3.SelectedIndex)
-                            {
-                                case 0:
-                                    x /= 1000000000000;
-                                    textBox1.Text += (x); break;
-                                case 1:
-                                    x /= 10000000000;
-                                    textBox1.Text += (x); break;
-                                case 2:
-                                    x /= 1000000000;
-                                    textBox1.Text += (x); break;
-                                case 3:
-                                    x /= 100000000;
-                                    textBox1.Text += (x); break;
-                                case 4:
-                                    x /= 1000000;
-                                    textBox1.Text += (x); break;
-                                case 5:
-                                    x /= 1000;
-                                    textBox1.Text += (x); break;
-                                case 6: textBox1.Text += (x); break;
-                            }
-                            break;
-                    }
-                    break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1: textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= (float)3.6;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 60;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 3600;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= (float)0.2778;
+                                        textBox1.Text += (x); break;
+                                    case 2: textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= (float)16.67;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 60000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 60;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= (float)0.06;
+                                        textBox1.Text += (x); break;
+                                    case 3: textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
+                    case 3:
+                    // Объем
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0: textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 4:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
+                    case 4:
+                    // Длина
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0: textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 100000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 3281;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 1094;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1: textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= (float)3.281;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= (float)1.094;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 2: textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x /= (float)3.048;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= (float)9.144;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 100000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x /= (float)30.48;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= (float)91.44;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 4:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 4: textBox1.Text += (x); break;
+                                    case 5:
+                                        x /= (float)304.8;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= (float)914.4;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 5:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 3281;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= (float)3.281;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= (float)0.328;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 3048;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= (float)304.8;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x /= 3;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 6:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1094;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= (float)1.094;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= (float)0.109;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= (float)91.44;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= (float)914.4;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 3;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
+                    case 5:
+                    //Площадь
+                        switch (comboBox2.SelectedIndex)
+                        {
+                            case 0:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0: textBox1.Text += (x); break;
+                                    case 1:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 1000000000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 1:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 1: textBox1.Text += (x); break;
+                                    case 2:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 100000000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 10000000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 2:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 2: textBox1.Text += (x); break;
+                                    case 3:
+                                        x *= 10;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 10000000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 1000000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 3:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 10;
+                                        textBox1.Text += (x); break;
+                                    case 3: textBox1.Text += (x); break;
+                                    case 4:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 100000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 4:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 100;
+                                        textBox1.Text += (x); break;
+                                    case 4: textBox1.Text += (x); break;
+                                    case 5:
+                                        x *= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 1000000;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 5:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 100000000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 10000000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 10000;
+                                        textBox1.Text += (x); break;
+                                    case 5: textBox1.Text += (x); break;
+                                    case 6:
+                                        x *= 100;
+                                        textBox1.Text += (x); break;
+                                }
+                                break;
+                            case 6:
+                                switch (comboBox3.SelectedIndex)
+                                {
+                                    case 0:
+                                        x /= 1000000000000;
+                                        textBox1.Text += (x); break;
+                                    case 1:
+                                        x /= 10000000000;
+                                        textBox1.Text += (x); break;
+                                    case 2:
+                                        x /= 1000000000;
+                                        textBox1.Text += (x); break;
+                                    case 3:
+                                        x /= 100000000;
+                                        textBox1.Text += (x); break;
+                                    case 4:
+                                        x /= 1000000;
+                                        textBox1.Text += (x); break;
+                                    case 5:
+                                        x /= 1000;
+                                        textBox1.Text += (x); break;
+                                    case 6: textBox1.Text += (x); break;
+                                }
+                                break;
+                        }
+                        break;
 
 
-            }
+                }
 
-
+        
+    
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -1184,7 +1192,7 @@ namespace WindowsFormsApplication3
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -1210,7 +1218,9 @@ namespace WindowsFormsApplication3
         {
             char[] allowch = { '\b' };
             if (e.KeyChar == ',' && ((TextBox)sender).Text.Length > 0 && !(((TextBox)sender).Text.Contains(',')))
-            { e.Handled = false; return; };
+            { e.Handled = false;
+                return;
+            };
             if (!Char.IsNumber(e.KeyChar) && !allowch.Contains(e.KeyChar)) e.Handled = true;
             if (!(Char.IsDigit(e.KeyChar)))
             {
@@ -1232,7 +1242,7 @@ namespace WindowsFormsApplication3
                 }
             }
         //запрет на ввод букв(только цифры и знаки)
-     } 
+      } 
     }
 }
 
